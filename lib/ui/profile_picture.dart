@@ -6,10 +6,14 @@ class ProfilePicture extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
-        shape: BoxShape.circle,
+        borderRadius: BorderRadius.circular(100),
+        color: Colors.grey,
       ),
-      child: Image.asset('assets'),
+      height: 48,
+      width: 48,
+      child: Image.asset('assets/blank-profile-picture.png'),
     );
   }
 }
