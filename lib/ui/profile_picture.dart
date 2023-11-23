@@ -11,8 +11,8 @@ class ProfilePicture extends StatelessWidget {
         borderRadius: BorderRadius.circular(100),
         color: Colors.grey,
       ),
-      height: 48,
-      width: 48,
+      height: 96,
+      width: 96,
       child: Image.asset('assets/blank-profile-picture.png'),
     );
   }
